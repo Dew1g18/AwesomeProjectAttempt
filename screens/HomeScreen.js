@@ -23,7 +23,7 @@ export default function HomeScreen() {
           <Image
             source={
               __DEV__
-                ? require('../assets/images/robot-dev.png')
+                ? require('../assets/images/redditlogo.png')
                 : require('../assets/images/robot-prod.png')
             }
             style={styles.welcomeImage}
@@ -109,6 +109,8 @@ function handleHelpPress() {
   );
 }
 
+
+//todo
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -131,8 +133,8 @@ const styles = StyleSheet.create({
   },
   welcomeImage: {
     width: 100,
-    height: 80,
-    resizeMode: 'contain',
+    height: 500,
+    resizeMode: 'center',
     marginTop: 3,
     marginLeft: -10,
   },

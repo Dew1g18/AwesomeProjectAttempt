@@ -36,6 +36,8 @@ HomeStack.navigationOptions = {
   ),
 };
 
+
+
 HomeStack.path = '';
 
 
